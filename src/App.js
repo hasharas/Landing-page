@@ -3,6 +3,7 @@ import Header from './components/Header';
 import CompanyVision from './components/CompanyVision';
 import CompanyWorlflow from './components/CompanyWorlflow';
 import FAQ from './components/FAQ';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -11,6 +12,8 @@ function App() {
         <CompanyVision />
         <CompanyWorlflow />
         <FAQ />
+        <Footer />
+
     </div>
   );
 }

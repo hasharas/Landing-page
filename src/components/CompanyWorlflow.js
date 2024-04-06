@@ -1,6 +1,6 @@
-import React from 'react'
-import ComputerImage from '../asset/computer.png'
-import SearchImage from '../asset/search.png'
+import React from 'react';
+import ComputerImage from '../asset/computer.png';
+import SearchImage from '../asset/search.png';
 
 const CompanyWorlflow = () => {
   return (

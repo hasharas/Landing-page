@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import Background from '../asset/background.png';
 
 const CompanyVision = () => {

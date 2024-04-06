@@ -1,7 +1,7 @@
-import React, { useEffect, useState } from 'react'
-import TopNavigation, { HamburgerMenu } from './TopNavigation'
+import React, { useEffect, useState } from 'react';
+import TopNavigation, { HamburgerMenu } from './TopNavigation';
 import { IoMenu } from "react-icons/io5";
-import LOGO from '../asset/logo.svg'
+import LOGO from '../asset/logo.svg';
 
 const Header = () => {
 
