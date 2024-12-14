@@ -1,6 +1,6 @@
 import React from 'react';
-import ComputerImage from '../asset/computer.png';
-import SearchImage from '../asset/search.png';
+import ComputerImage from '../asset/computer2.png';
+import SearchImage from '../asset/search1.png';
 
 const CompanyWorlflow = () => {
   return (
@@ -20,9 +20,9 @@ const CompanyWorlflow = () => {
 const WorkflowCard = ({title, text}) => {
       return(
           <div className='text-left flex flex-col gap-[20px] items-start max-sm:items-center'>
-              <h2 className='text-[27px] text-[#6B3CC9] poppins-semibold'>{title}</h2>
+              <h2 className='text-[27px] text-[#1f3e3e] poppins-semibold'>{title}</h2>
               <p className='text-xs'>{text}</p>
-              <button className='bg-[#F28D35] text-xs rounded-[4px] py-[12px] px-[20px] text-white'>LEARN MORE</button>
+              <button className='bg-[#06583a] text-xs rounded-[4px] py-[12px] px-[20px] text-white'>LEARN MORE</button>
           </div>
       )
   }

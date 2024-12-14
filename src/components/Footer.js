@@ -3,10 +3,10 @@ import LOGO from '../asset/logo.svg'
 
 const Footer = () => {
   return (
-    <div className='bg-[#6B3CC9] text-white flex flex-col justify-between items-center px-[60px] pt-[40px] pb-[20px] gap-[40px] mt-20' >
-        <div className=' flex max-md:flex-col justify-between items-start bg-[#6B3CC9] text-white max-md:gap-[60px]'>
+    <div className='bg-[#698b69] text-white flex flex-col justify-between items-center px-[60px] pt-[40px] pb-[20px] gap-[40px] mt-20' >
+        <div className=' flex max-md:flex-col justify-between items-start bg-[#698b69] text-white max-md:gap-[60px]'>
             <div className='w-1/3 text-left text-white flex flex-col items-start gap-[20px] max-md:w-2/3'>
-                <img src={LOGO} alt='logo' className='h-[25px]' />
+                <img src="LOGO" alt='logo' className='h-[25px]' />
                 <p>Your goal is our target. Not anything in between. We use online marketing platforms and tools to achieve single objective - your business results.</p>
             </div>
             <div className='w-1/2 flex justify-between max-md:w-3/4 max-sm:flex-col max-sm:gap-[40px]'>
